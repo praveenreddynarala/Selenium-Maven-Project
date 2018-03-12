@@ -1,0 +1,13 @@
+INFO    2016-01-13 13:56:03,402 [main] TC_ViewDeal  - Launched IE browser
+INFO    2016-01-13 13:56:07,139 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 13:56:07,503 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 13:56:08,001 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 13:56:08,829 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 13:56:09,498 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 13:56:10,971 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 13:56:10,981 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (d616f7e2-bdca-4d51-931f-45c8c1be60d4)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 13:56:17,718 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 13:56:18,596 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+ERROR   2016-01-13 13:56:20,033 [main] TC_ViewDeal  - Exception : An element# Hotel Result List could not be located with the given searched parameter location# //div[@id='content']//li//h3 on the page.
+INFO    2016-01-13 13:56:20,034 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (d616f7e2-bdca-4d51-931f-45c8c1be60d4)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 13:56:22,506 [main] TC_ViewDeal  - Successfully done cleanup driver

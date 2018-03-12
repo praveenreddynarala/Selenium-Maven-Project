@@ -1,0 +1,17 @@
+INFO    2016-01-12 22:59:13,436 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-12 22:59:30,108 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 22:59:30,235 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 22:59:32,427 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 22:59:34,758 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 22:59:37,691 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 22:59:40,062 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 22:59:48,175 [main] TC_ViewDeal  - Successfully waited for elements
+INFO    2016-01-12 22:59:55,045 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-12 23:00:00,096 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+ERROR   2016-01-12 23:01:51,505 [main] TC_ViewDeal  - Failed to perform WaitAndGetElementsaction on Hotel Result List due to some error
+ERROR   2016-01-12 23:01:51,525 [main] TC_ViewDeal  - Timed out after 60 seconds waiting for visibility of [[ChromeDriver: chrome on WIN8 (308373236036d8cd07ec5903d62da442)] -> xpath: //div[@id='content']//ul/li]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.101', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir8536_26870}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 308373236036d8cd07ec5903d62da442

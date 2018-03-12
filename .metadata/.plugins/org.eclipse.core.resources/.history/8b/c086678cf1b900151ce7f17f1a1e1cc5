@@ -1,0 +1,51 @@
+INFO    2016-01-13 13:40:56,345 [main] TC_ViewDeal  - Launched FIREFOX browser
+INFO    2016-01-13 13:41:05,315 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 13:41:05,696 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 13:41:05,966 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 13:41:06,367 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 13:41:06,446 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 13:41:07,650 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 13:41:07,651 [main] TC_ViewDeal  - Successfully waited for WebElement [[FirefoxDriver: firefox on WINDOWS (9503bcc1-b6f3-4fd3-b472-174baabada36)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 13:41:31,983 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 13:41:32,473 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 13:41:33,118 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 13:41:33,119 [main] TC_ViewDeal  - Successfully waited for WebElement [[FirefoxDriver: firefox on WINDOWS (9503bcc1-b6f3-4fd3-b472-174baabada36)] -> xpath: //div[@id='content']//li//h3]
+ERROR   2016-01-13 13:42:52,384 [main] TC_ViewDeal  - Stale element : An element# Third Price could not be located with the given searched parameter location# //div[@id='content']//li[2]//section[@class='sl-box-content cf']//div[contains(@class, 'deal_wrp js_deal_wrp')][1]/div on the page.
+INFO    2016-01-13 13:42:52,385 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 13:42:53,372 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 13:43:07,198 [main] TC_ViewDeal  - Successfully switched to Accorhotels.com
+INFO    2016-01-13 13:43:19,702 [main] TC_ViewDeal  - Successfully switched to Current/Default Accorhotels.com
+INFO    2016-01-13 13:43:21,871 [main] TC_ViewDeal  - Successfully switched to Accorhotels.com
+INFO    2016-01-13 13:43:21,956 [main] TC_ViewDeal  - Assterted page title Accorhotels.com is contains on the page
+INFO    2016-01-13 13:43:22,176 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is present on page
+ERROR   2016-01-13 13:43:24,573 [main] TC_ViewDeal  - Window not found. The browser window may have been closed.
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9503bcc1-b6f3-4fd3-b472-174baabada36
+ERROR   2016-01-13 13:43:24,574 [main] TC_ViewDeal  - Failed to perform CloseWindowaction on Close Partners Window due to some error
+ERROR   2016-01-13 13:43:24,576 [main] TC_ViewDeal  - Unable to locate window "{d1abe6f3-67c0-44e8-8ac1-70d5cc3e523d}"
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9503bcc1-b6f3-4fd3-b472-174baabada36
+ERROR   2016-01-13 13:43:24,636 [main] TC_ViewDeal  - Window not found. The browser window may have been closed.
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9503bcc1-b6f3-4fd3-b472-174baabada36
+ERROR   2016-01-13 13:43:24,637 [main] TC_ViewDeal  - Failed to perform SwitchToDefaultWindowaction on Switch to Trivago Hotel Result Screen due to some error
+ERROR   2016-01-13 13:43:24,639 [main] TC_ViewDeal  - Window not found. The browser window may have been closed.
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9503bcc1-b6f3-4fd3-b472-174baabada36
+INFO    2016-01-13 13:43:53,521 [main] TC_ViewDeal  - Successfully done cleanup driver

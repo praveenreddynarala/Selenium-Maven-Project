@@ -1,0 +1,17 @@
+INFO    2016-01-13 19:44:04,879 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 19:44:16,414 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 19:44:18,820 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 19:44:21,509 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 19:44:24,365 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 19:44:26,363 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 19:45:29,810 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 19:46:04,462 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (76ea1922a007b7375411931f7c5cc801)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 19:46:28,430 [main] TC_ViewDeal  - Successfully waited for element# title on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 19:46:28,445 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (76ea1922a007b7375411931f7c5cc801)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 19:46:29,253 [main] TC_ViewDeal  - Selected Hamburg City - Hamburg, Germany (518 Hotels) from suggetion list
+INFO    2016-01-13 19:46:41,824 [main] TC_ViewDeal  - Successfully performed WaitForElement on Check-in button for 60 seconds
+INFO    2016-01-13 19:46:44,584 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 19:47:53,256 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 19:48:15,138 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 19:48:30,511 [main] TC_ViewDeal  - Successfully waited for element# Third Price on Location# //div[contains(@class, 'deal_wrp js_deal_wrp')][3]/div and returned element
+INFO    2016-01-13 19:48:50,480 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com

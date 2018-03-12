@@ -1,0 +1,20 @@
+package objectrepository;
+
+/**
+ * It has selected city result page objects
+ * @author praveenrn
+ *
+ */
+public class Trivago_Result_PgObjs {
+
+	//Checking button object
+	public static String sCheckinBtn_XPATH = "//form[@id='js_dealform_querycenter']/div[2]/div[1]/button";
+	//Check-out button object
+	public static String sCheckoutBtn_XPATH = "//form[@id='js_dealform_querycenter']/div[2]/div[2]/button";
+	//Double Room button object
+	public static String sDoubleRoomBtn_XPATH = "//form[@id='js_dealform_querycenter']/div[2]/div[3]/button";
+	//Close Check-In Calender
+	public static String sCloseCheckInCalender_XPATH = "//span[text()='Check-in']/../span[contains(@class, 'df_overlay_close_wrap')]";
+	//Hotel list 
+	public static String sHotelList_XPATH = "//div[@id='content']//ul/li";
+}

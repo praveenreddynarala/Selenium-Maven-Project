@@ -1,0 +1,19 @@
+INFO    2016-01-13 11:52:39,621 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 11:52:45,300 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 11:52:47,723 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 11:52:49,790 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 11:52:53,243 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 11:52:55,640 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 11:53:01,696 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 11:53:01,697 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (8be4ea229910c0a6cb4f7e5ccff58464)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 11:53:08,869 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 11:53:14,788 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 11:53:25,841 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 11:53:25,842 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (8be4ea229910c0a6cb4f7e5ccff58464)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 11:53:26,875 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 11:53:27,251 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 11:53:29,442 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 11:53:49,852 [main] TC_ViewDeal  - Successfully waited for popup window to close
+INFO    2016-01-13 11:53:50,014 [main] TC_ViewDeal  - Successfully switched to Current/Default trivago
+INFO    2016-01-13 11:53:52,185 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 11:53:52,532 [main] TC_ViewDeal  - Assterted page title trivago is contains on the page

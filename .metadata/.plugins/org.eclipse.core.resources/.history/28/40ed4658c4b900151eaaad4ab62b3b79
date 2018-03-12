@@ -1,0 +1,19 @@
+INFO    2016-01-13 10:57:56,887 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 10:58:03,485 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 10:58:05,991 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 10:58:08,502 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 10:58:11,668 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 10:58:13,994 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 10:58:20,806 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 10:58:20,807 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (70c4ee370ebaa1c1a8c48e95264d73c5)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 10:58:27,601 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 10:58:32,826 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 10:58:46,120 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 10:58:46,121 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (70c4ee370ebaa1c1a8c48e95264d73c5)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 10:58:47,019 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 10:58:47,382 [main] TC_ViewDeal  - Successfully clicked on Third Price
+ERROR   2016-01-13 10:58:48,887 [main] TC_ViewDeal  - Failed to perform SwitchToWindowaction on Switch to Child Window -  due to some error
+ERROR   2016-01-13 10:58:48,889 [main] TC_ViewDeal  - The UI Locator Type is Empty, Please Specify a UI Locator
+INFO    2016-01-13 10:59:46,055 [main] TC_ViewDeal  - Successfully waited for popup window to close
+ERROR   2016-01-13 11:00:03,377 [main] TC_ViewDeal  - Failed to perform SwitchToDefaultWindowaction on Switch to Trivago Hotel Result Screen due to some error
+ERROR   2016-01-13 11:00:03,380 [main] TC_ViewDeal  - The UI Locator Type is Empty, Please Specify a UI Locator

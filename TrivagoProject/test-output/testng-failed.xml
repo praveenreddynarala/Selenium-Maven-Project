@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trivago_Suite]">
+  <test name="ViewDeal(failed)">
+    <classes>
+      <class name="testcases.Trivago_TestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="TC_ViewDeal"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testcases.Trivago_TestCases -->
+    </classes>
+  </test> <!-- ViewDeal(failed) -->
+</suite> <!-- Failed suite [Trivago_Suite] -->

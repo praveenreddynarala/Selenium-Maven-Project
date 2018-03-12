@@ -1,0 +1,11 @@
+package objectrepository;
+
+/**
+ * This class contains all Trivago home UI page objects
+ * This acts like page objects repository
+ * @author praveenrn
+ *
+ */
+public class Trivago_Home_PgObjs {
+
+}

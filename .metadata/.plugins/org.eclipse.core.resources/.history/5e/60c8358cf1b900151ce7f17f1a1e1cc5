@@ -1,0 +1,12 @@
+INFO    2016-01-13 13:50:27,245 [main] TC_ViewDeal  - Launched IE browser
+INFO    2016-01-13 13:50:34,387 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 13:50:34,695 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 13:50:35,045 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 13:50:36,580 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 13:50:36,948 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 13:50:38,470 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 13:50:38,480 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (e4ee936e-984f-4dc2-9e3f-ca080361870c)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 13:50:43,264 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 13:50:44,113 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 13:50:44,942 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 13:50:44,944 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (e4ee936e-984f-4dc2-9e3f-ca080361870c)] -> xpath: //div[@id='content']//li//h3]

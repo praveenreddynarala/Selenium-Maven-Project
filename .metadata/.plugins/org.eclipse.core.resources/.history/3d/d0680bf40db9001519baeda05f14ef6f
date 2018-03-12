@@ -1,0 +1,14 @@
+package testcases;
+
+import baseclass.BaseTest;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class ViewDeal extends BaseTest {
+
+	private BaseTest basetestObj = null;
+	private CommonActions commonObj = null;
+}

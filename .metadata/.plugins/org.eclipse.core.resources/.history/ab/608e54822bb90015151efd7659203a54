@@ -1,0 +1,63 @@
+package testcases;
+
+import java.lang.reflect.Method;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import baseclass.BaseTest;
+import baseclass.CommonActions;
+import baseclass.CommonActions.ActionsType;
+import baseclass.CommonActions.LocatorType;
+import baseclass.CommonActions.WaitType;
+import objectrepository.Trivago_Home_PgObjs;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class Trivago_TestCases extends BaseTest {
+
+	//Global variables
+	private BaseTest basetestObj = null;
+	private CommonActions commonObj = null;
+	
+	/**
+	 * Constructor for objects initialization
+	 */
+	public Trivago_TestCases(){
+	
+		basetestObj = new BaseTest();
+		commonObj = new CommonActions();
+	}
+	
+	/**
+	 * Launch targeted test browser and navigate to URL (Trivago)
+	 * @param method
+	 */
+	@BeforeMethod
+	public void launchBrowser(Method method){
+	
+		BaseTest.testExcClsName = this.getClass().getSimpleName();
+		BaseTest.testName = method.getName();
+		basetestObj.startDriver();
+	}
+	
+	
+	@Test
+	public void TC_ViewDeal(){
+		
+		//Wait for Deal Seartch Textbox on UI for 60 seconds
+		commonObj.waitFunctionality(WaitType.WaitForElement, LocatorType.id, Trivago_Home_PgObjs.searchTxt_ID, "Search Textbox", 60);
+		//Click on Deal Seartch Textbox
+		commonObj.userActions(ActionsType.Click, LocatorType.id, Trivago_Home_PgObjs.searchTxt_ID, "Search Textbox");
+		//Type deal name to view deal list box
+		commonObj.userActions(ActionsType.TypeText, LocatorType.id, Trivago_Home_PgObjs.searchTxt_ID, "Search Textbox", "Hamburg");
+		//Wait for deal-form-suggest list box
+		commonObj.waitFunctionality(WaitType.WaitForElement, LocatorType.id, Trivago_Home_PgObjs.dealformSuggest_Container_ID, "deal-form-suggetion", 30);
+		//Wait and return deal list from list box
+		commonObj.waitFunctionality(WaitType.WaitAndGetElements, LocatorType.xpath, Trivago_Home_PgObjs.dealformSuggest_List_XPATH, "deal-form-suggetion List", 30);
+		
+	}
+}

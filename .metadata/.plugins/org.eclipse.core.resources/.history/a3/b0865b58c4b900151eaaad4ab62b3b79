@@ -1,0 +1,20 @@
+INFO    2016-01-13 11:43:43,298 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 11:43:50,951 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 11:43:53,418 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 11:43:55,680 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 11:43:58,319 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 11:44:00,927 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 11:44:06,254 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 11:44:06,254 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (c8848d28743a8a9ed0f8134a231ad314)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 11:44:13,318 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 11:44:18,431 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+ERROR   2016-01-13 11:44:19,850 [main] TC_ViewDeal  - Exception : An element# Hotel Result List could not be located with the given searched parameter location# //div[@id='content']//li//h3 on the page.
+INFO    2016-01-13 11:44:34,595 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 11:44:34,596 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (c8848d28743a8a9ed0f8134a231ad314)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 11:44:38,885 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 11:44:41,301 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 11:44:43,558 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 11:45:03,957 [main] TC_ViewDeal  - Successfully waited for popup window to close
+INFO    2016-01-13 11:45:04,174 [main] TC_ViewDeal  - Successfully switched to Current/Default Accorhotels.com
+INFO    2016-01-13 11:45:06,416 [main] TC_ViewDeal  - Successfully switched to Accorhotels.com
+INFO    2016-01-13 11:45:06,766 [main] TC_ViewDeal  - Assterted page title Accorhotels.com is contains on the page

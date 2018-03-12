@@ -1,0 +1,28 @@
+INFO    2016-01-13 20:09:38,048 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 20:09:44,695 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 20:09:46,929 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 20:09:49,096 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 20:09:52,828 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 20:09:54,738 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 20:10:00,701 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 20:10:00,703 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (a29088bea659a6777157584793d60b87)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 20:10:06,106 [main] TC_ViewDeal  - Successfully waited for element# title on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 20:10:06,107 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (a29088bea659a6777157584793d60b87)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 20:10:06,178 [main] TC_ViewDeal  - Selected Hamburg City - Hamburg, Germany (518 Hotels) from suggetion list
+INFO    2016-01-13 20:10:07,187 [main] TC_ViewDeal  - Successfully performed WaitForElement on Check-in button for 60 seconds
+INFO    2016-01-13 20:10:08,119 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 20:10:10,580 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 20:10:10,705 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 20:10:10,779 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 20:10:10,976 [main] TC_ViewDeal  - Successfully clicked on View All Deals
+INFO    2016-01-13 20:10:11,644 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+ERROR   2016-01-13 20:10:12,711 [main] TC_ViewDeal  - Failed to perform ScriptSleepaction on Stop script execution due to some error
+ERROR   2016-01-13 20:10:12,712 [main] TC_ViewDeal  - The UI Locator Type is Empty, Please Specify a UI Locator
+INFO    2016-01-13 20:10:12,774 [main] TC_ViewDeal  - Successfully waited for element# Third Price on Location# //div[contains(@class, 'deal_wrp js_deal_wrp')][3]/div and returned element
+INFO    2016-01-13 20:10:13,176 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 20:10:15,896 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 20:10:27,132 [main] TC_ViewDeal  - Successfully switched to Current/Default Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 20:10:33,248 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 20:10:33,656 [main] TC_ViewDeal  - Assterted page title Mercure Hotel Hamburg Mitte, Germany - Booking.com is contains on the page
+INFO    2016-01-13 20:10:34,545 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is present on page
+INFO    2016-01-13 20:10:38,035 [main] TC_ViewDeal  - Successfully done cleanup driver

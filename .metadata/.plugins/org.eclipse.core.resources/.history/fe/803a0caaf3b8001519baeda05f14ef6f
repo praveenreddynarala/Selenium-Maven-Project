@@ -1,0 +1,16 @@
+package helperpackage;
+
+public class Snippet {
+	/**
+	      * Get Current Date and Time (MM-dd-yyyy HH:mm:ss)
+	      * @return Current Date and Time in the following format MM-dd-yyyy HH:mm:ss, dd_MM_yyyy_hh_mm_ss, YYYYMMDD'T'HHMMSS
+	      */
+	     private String getCurrentDate() {
+	    	 
+	    	 DateFormat dateFormat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+	    	 java.util.Date date = new java.util.Date();
+	    	 return dateFormat.format(date);
+	    	 
+	     }
+}
+

@@ -1,0 +1,13 @@
+INFO    2016-01-12 23:31:32,037 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-12 23:31:40,729 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 23:31:40,856 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 23:31:43,303 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 23:31:45,456 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 23:31:49,624 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 23:31:51,687 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 23:31:58,185 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-12 23:31:58,191 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (147b0b2e84b887111a43558225c3acee)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-12 23:32:05,206 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-12 23:32:10,594 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+ERROR   2016-01-12 23:33:29,746 [main] TC_ViewDeal  - Exception : An element# Hotel Result List could not be located with the given searched parameter location# //div[@id='content']//ul/li on the page.
+INFO    2016-01-12 23:33:39,493 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (147b0b2e84b887111a43558225c3acee)] -> xpath: //div[@id='content']//ul/li]

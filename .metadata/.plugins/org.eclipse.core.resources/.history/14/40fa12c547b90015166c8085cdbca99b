@@ -1,0 +1,2 @@
+ERROR   2016-01-12 16:26:49,134 [main] TC_ViewDeal  - General IOException has been occured: null
+INFO    2016-01-12 16:27:52,884 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds

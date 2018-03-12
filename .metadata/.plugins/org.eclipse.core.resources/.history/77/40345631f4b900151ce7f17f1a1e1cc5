@@ -1,0 +1,28 @@
+INFO    2016-01-13 18:03:46,882 [main] TC_ViewDeal  - Launched FIREFOX browser
+INFO    2016-01-13 18:03:54,030 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 18:03:54,684 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 18:03:55,200 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 18:03:55,609 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 18:03:55,877 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 18:03:57,891 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 18:03:57,893 [main] TC_ViewDeal  - Successfully waited for WebElement [[FirefoxDriver: firefox on WINDOWS (2ab73842-7e73-497e-bec6-d50420368f37)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 18:04:33,489 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 18:04:34,545 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 18:04:34,777 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 18:04:35,029 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 18:04:36,904 [main] TC_ViewDeal  - Successfully waited for element# Third Price on Location# //div[contains(@class, 'deal_wrp js_deal_wrp')][3]/div and returned element
+ERROR   2016-01-13 18:05:56,309 [main] TC_ViewDeal  - Failed to perform Clickaction on Third Price due to some error
+ERROR   2016-01-13 18:05:56,326 [main] TC_ViewDeal  - Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 68.40 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ab73842-7e73-497e-bec6-d50420368f37
+INFO    2016-01-13 18:05:58,486 [main] TC_ViewDeal  - Successfully switched to trivago.in: The world's top hotel search engine
+INFO    2016-01-13 18:05:58,810 [main] TC_ViewDeal  - Successfully switched to Current/Default trivago.in: The world's top hotel search engine
+INFO    2016-01-13 18:06:00,953 [main] TC_ViewDeal  - Successfully switched to trivago.in: The world's top hotel search engine
+INFO    2016-01-13 18:06:01,013 [main] TC_ViewDeal  - Assterted page title trivago.in: The world's top hotel search engine is contains on the page
+ERROR   2016-01-13 18:06:01,862 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is not present on page
+INFO    2016-01-13 18:06:32,238 [main] TC_ViewDeal  - Successfully done cleanup driver

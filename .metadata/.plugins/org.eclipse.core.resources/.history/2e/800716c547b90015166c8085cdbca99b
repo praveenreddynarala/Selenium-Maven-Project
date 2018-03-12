@@ -1,0 +1,3 @@
+INFO    2016-01-12 16:44:21,181 [main] TC_ViewDeal  - Launched IE browser and navigated to http://www.trivago.com
+INFO    2016-01-12 16:44:21,626 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 16:45:43,839 [main] TC_ViewDeal  - Successfully clicked on Search Textbox

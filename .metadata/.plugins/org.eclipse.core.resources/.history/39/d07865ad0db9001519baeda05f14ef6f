@@ -1,0 +1,11 @@
+package testcases;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class ViewDeal {
+
+	
+}

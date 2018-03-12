@@ -1,0 +1,52 @@
+package testcases;
+
+import java.lang.reflect.Method;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import baseclass.BaseTest;
+import baseclass.CommonActions;
+import baseclass.CommonActions.ActionsType;
+import baseclass.CommonActions.LocatorType;
+import baseclass.CommonActions.WaitType;
+import commonpageactions.CommonPageActions;
+import objectrepository.Trivago_Home_PgObjs;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class Trivago_TestCases extends BaseTest {
+
+	private CommonPageActions CPA = null;
+	
+	/**
+	 * Constructor for objects initialization
+	 */
+	public Trivago_TestCases(){
+	
+		CPA = new CommonPageActions();
+	}
+	
+	/**
+	 * Launch targeted test browser and navigate to URL (Trivago)
+	 * @param method
+	 */
+	@BeforeMethod
+	public void launchBrowser(Method method){
+	
+		BaseTest.testExcClsName = this.getClass().getSimpleName();
+		BaseTest.testName = method.getName();
+		basetestObj.startDriver();
+	}
+	
+	
+	@Test
+	public void TC_ViewDeal(){
+		
+		Navigate_To_Website_And_Search_Cit
+		
+	}
+}

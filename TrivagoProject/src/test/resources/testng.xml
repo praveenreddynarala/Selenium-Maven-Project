@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Trivago_Suite" verbose="1" >
+  <test name="ViewDeal" >
+    <classes>
+       <class name="testcases.Trivago_TestCases">
+        <methods>
+        <include name="TC_ViewDeal" />
+        </methods>
+       </class>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite>

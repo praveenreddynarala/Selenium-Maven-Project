@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Trivago_Suite" duration-ms="181390" started-at="2016-01-13T14:45:12Z" finished-at="2016-01-13T14:48:14Z">
+    <groups>
+    </groups>
+    <test name="ViewDeal" duration-ms="181390" started-at="2016-01-13T14:45:12Z" finished-at="2016-01-13T14:48:14Z">
+      <class name="testcases.Trivago_TestCases">
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:testcases.Trivago_TestCases@42b0a6]" name="launchBrowser" is-config="true" duration-ms="27851" started-at="2016-01-13T20:15:12Z" finished-at="2016-01-13T20:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Trivago_TestCases.TC_ViewDeal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_ViewDeal()[pri:0, instance:testcases.Trivago_TestCases@42b0a6]" name="TC_ViewDeal" duration-ms="126053" started-at="2016-01-13T20:15:40Z" finished-at="2016-01-13T20:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ViewDeal -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testcases.Trivago_TestCases@42b0a6]" name="quitBrowser" is-config="true" duration-ms="27440" started-at="2016-01-13T20:17:46Z" finished-at="2016-01-13T20:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.Trivago_TestCases -->
+    </test> <!-- ViewDeal -->
+  </suite> <!-- Trivago_Suite -->
+</testng-results>

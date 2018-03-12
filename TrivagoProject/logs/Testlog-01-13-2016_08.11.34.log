@@ -1,0 +1,30 @@
+INFO    2016-01-13 20:11:34,121 [main] TC_ViewDeal  - Launched IE browser
+INFO    2016-01-13 20:11:43,099 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 20:11:43,510 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 20:11:43,801 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 20:11:44,449 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 20:11:44,844 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 20:11:46,221 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 20:11:46,223 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (bb246e22-475c-46db-9c5d-82d555cdc3df)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 20:11:47,248 [main] TC_ViewDeal  - Successfully waited for element# title on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 20:11:47,249 [main] TC_ViewDeal  - Successfully waited for WebElement [[InternetExplorerDriver: internet explorer on WINDOWS (bb246e22-475c-46db-9c5d-82d555cdc3df)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 20:11:47,415 [main] TC_ViewDeal  - Selected Hamburg City - Hamburg, Germany (518 Hotels) from suggetion list
+INFO    2016-01-13 20:11:51,316 [main] TC_ViewDeal  - Successfully performed WaitForElement on Check-in button for 60 seconds
+INFO    2016-01-13 20:11:51,791 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 20:11:54,483 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 20:11:54,741 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 20:11:54,918 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 20:11:55,358 [main] TC_ViewDeal  - Successfully clicked on View All Deals
+ERROR   2016-01-13 20:11:57,441 [main] TC_ViewDeal  - Failed to perform ScriptSleepaction on Stop script execution due to some error
+ERROR   2016-01-13 20:11:57,443 [main] TC_ViewDeal  - The UI Locator Type is Empty, Please Specify a UI Locator
+INFO    2016-01-13 20:11:58,009 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+ERROR   2016-01-13 20:11:59,618 [main] TC_ViewDeal  - Failed to perform ScriptSleepaction on Stop script execution due to some error
+ERROR   2016-01-13 20:11:59,619 [main] TC_ViewDeal  - The UI Locator Type is Empty, Please Specify a UI Locator
+INFO    2016-01-13 20:11:59,928 [main] TC_ViewDeal  - Successfully waited for element# Third Price on Location# //div[contains(@class, 'deal_wrp js_deal_wrp')][3]/div and returned element
+INFO    2016-01-13 20:12:03,756 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 20:12:24,257 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 20:12:24,924 [main] TC_ViewDeal  - Successfully switched to Current/Default Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 20:12:30,986 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 20:12:31,025 [main] TC_ViewDeal  - Assterted page title Mercure Hotel Hamburg Mitte, Germany - Booking.com is contains on the page
+INFO    2016-01-13 20:12:31,620 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is present on page
+INFO    2016-01-13 20:12:33,504 [main] TC_ViewDeal  - Successfully done cleanup driver

@@ -1,0 +1,19 @@
+INFO    2016-01-13 12:31:40,506 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 12:31:46,465 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 12:31:48,604 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 12:31:50,747 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 12:31:53,897 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 12:31:56,289 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 12:32:02,482 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 12:32:02,484 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (7171a132229d18a563c4a6f96d3f6856)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 12:32:10,008 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 12:32:13,863 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 12:32:28,692 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 12:32:28,693 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (7171a132229d18a563c4a6f96d3f6856)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 12:32:32,404 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 12:32:35,094 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 12:32:37,392 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 12:32:48,486 [main] TC_ViewDeal  - Successfully switched to Current/Default Accorhotels.com
+INFO    2016-01-13 12:32:50,696 [main] TC_ViewDeal  - Successfully switched to Accorhotels.com
+INFO    2016-01-13 12:32:51,046 [main] TC_ViewDeal  - Assterted page title Accorhotels.com is contains on the page
+ERROR   2016-01-13 12:34:57,051 [main] TC_ViewDeal  - Assrted text Mercure Hamburg Mitte is not present on page

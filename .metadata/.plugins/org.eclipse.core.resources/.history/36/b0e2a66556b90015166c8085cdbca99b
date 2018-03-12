@@ -1,0 +1,10 @@
+INFO    2016-01-12 21:51:47,562 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-12 21:51:57,020 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 21:51:57,147 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 21:51:59,284 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 21:52:01,541 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 21:52:04,499 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 21:52:06,644 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 21:52:14,768 [main] TC_ViewDeal  - Successfully waited for elements
+INFO    2016-01-12 21:52:57,057 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-12 21:53:20,615 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar

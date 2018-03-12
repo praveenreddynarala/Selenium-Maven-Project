@@ -1,0 +1,19 @@
+INFO    2016-01-13 18:07:50,070 [main] TC_ViewDeal  - Launched FIREFOX browser
+INFO    2016-01-13 18:07:57,522 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 18:07:57,965 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 18:07:58,229 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 18:07:58,672 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 18:07:58,836 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 18:08:00,529 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 18:08:00,531 [main] TC_ViewDeal  - Successfully waited for WebElement [[FirefoxDriver: firefox on WINDOWS (c931346e-2cba-44a0-afe9-9a6b680675e1)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 18:08:02,908 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 18:08:17,512 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 18:08:17,718 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 18:08:17,931 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 18:08:27,078 [main] TC_ViewDeal  - Successfully waited for element# Third Price on Location# //div[contains(@class, 'deal_wrp js_deal_wrp')][3]/div and returned element
+INFO    2016-01-13 18:08:46,028 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 18:09:05,044 [main] TC_ViewDeal  - Successfully switched to Current/Default Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 18:09:07,236 [main] TC_ViewDeal  - Successfully switched to Mercure Hotel Hamburg Mitte, Germany - Booking.com
+INFO    2016-01-13 18:09:07,324 [main] TC_ViewDeal  - Assterted page title Mercure Hotel Hamburg Mitte, Germany - Booking.com is contains on the page
+INFO    2016-01-13 18:09:08,220 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is present on page
+INFO    2016-01-13 18:09:26,324 [main] TC_ViewDeal  - Successfully done cleanup driver

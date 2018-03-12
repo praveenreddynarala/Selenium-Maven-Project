@@ -1,0 +1,3 @@
+# Properties defining the configuration settings.
+browserName=IE
+baseURL=http://www.trivago.com

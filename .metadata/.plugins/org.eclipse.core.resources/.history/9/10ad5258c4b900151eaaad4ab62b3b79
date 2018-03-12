@@ -1,0 +1,16 @@
+INFO    2016-01-13 12:22:46,119 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 12:22:52,490 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 12:22:54,799 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 12:22:57,644 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 12:23:00,756 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 12:23:03,036 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 12:23:09,063 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 12:23:09,064 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (70e08fd92856b6249cce2912279ea489)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 12:23:16,836 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 12:23:21,110 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 12:23:35,452 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 12:23:35,454 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (70e08fd92856b6249cce2912279ea489)] -> xpath: //div[@id='content']//li//h3]
+ERROR   2016-01-13 12:23:40,004 [main] TC_ViewDeal  - Stale element : An element# Third Price could not be located with the given searched parameter location# //div[@id='content']//li[2]//section[@class='sl-box-content cf']//div[contains(@class, 'deal_wrp js_deal_wrp')][1]/div on the page.
+INFO    2016-01-13 12:23:40,005 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 12:23:42,909 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 12:23:45,164 [main] TC_ViewDeal  - Successfully switched to trivago

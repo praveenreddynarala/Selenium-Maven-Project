@@ -1,0 +1,59 @@
+package testcases;
+
+import java.lang.reflect.Method;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import baseclass.BaseTest;
+import baseclass.CommonActions;
+import baseclass.CommonActions.ActionsType;
+import baseclass.CommonActions.LocatorType;
+import baseclass.CommonActions.WaitType;
+import commonpageactions.CommonPageActions;
+import objectrepository.Trivago_Home_PgObjs;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class Trivago_TestCases {
+
+	private CommonPageActions CPA = null;
+	
+	/**
+	 * Constructor for objects initialization
+	 */
+	public Trivago_TestCases(){
+	
+		CPA = new CommonPageActions();
+	}
+	
+	/**
+	 * Launch targeted test browser and navigate to URL (Trivago)
+	 * @param method
+	 */
+	@BeforeMethod
+	public void launchBrowser(Method method){
+	
+		BaseTest.testExcClsName = this.getClass().getSimpleName();
+		BaseTest.testName = method.getName();
+		CPA.startDriver();
+	}
+	
+	public void quitBrowser(){
+		
+		
+	}
+	
+	@Test
+	public void TC_ViewDeal(){
+		
+		CPA.Navigate_To_Website_And_Search_City(BaseTest.sURL, "Hamburg");
+		CPA.Close_Calendar_After_Search_Was_Executed();
+		CPA.Chose_Second_Hotel_In_Result();
+		CPA.Choose_ThirdPrice();
+		CPA.Verify_HotelName_In_Partners_window();
+	}
+}

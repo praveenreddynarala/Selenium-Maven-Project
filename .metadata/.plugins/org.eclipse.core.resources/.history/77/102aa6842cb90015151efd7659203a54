@@ -1,0 +1,175 @@
+package baseclass;
+
+import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+
+import baseclass.CommonActions.ActionsType;
+import baseclass.CommonActions.AssertionType;
+import baseclass.CommonActions.LocatorType;
+import baseclass.CommonActions.WaitType;
+import ReportLogging.RenderHTMLReport;
+import helperpackage.Logging;
+import helperpackage.ReadPropertiesFile;
+
+public class BaseTest extends RenderHTMLReport {
+
+	public static WebDriver driver = null;
+	
+	public static ReadPropertiesFile properties = null;
+	public static Logging logCls = new Logging();
+	public static Logger log = null;
+	public static String testName;
+	public static String testExcClsName;
+	
+	public static RemoteWebDriver webdriver;
+	public static RemoteWebElement webelement;
+	public static WebDriverWait driverWait;
+	static String elementLocation;
+	public static List<WebElement> webelements;
+	static Actions actionBuilder;
+	static JavascriptExecutor jsExecutor;
+	protected boolean bWait = false;
+	protected boolean bAssert = false;
+	protected boolean isDisplayed = false;
+	static LocatorType locatortype;
+	static ActionsType actionType;
+	static WaitType waitType;
+	static AssertionType assertTye;
+	static String elementName;
+	static String inputText;
+	static String attType;
+	static String expectedTxt;
+	static String actualTxt;
+	static int waitTime;
+	public static String executionStatus = "PASSED";
+	public String elementText = "";
+	public Set<String> windowHandles;
+	public String currentWindowHandle;
+	public static String browserName = "NA";
+	public static String sURL = "NA";
+	
+	/**
+	 * Start Driver Instance
+	 */
+	public void startDriver() {
+		
+		try{
+			properties = new ReadPropertiesFile("src/main/resources/Common.properties");
+			browserName = properties.getPropertyValue("browserName");
+			sURL = properties.getPropertyValue("baseURL");
+			
+			if(browserName.trim().equals("IE")) {
+				
+				File file = new File("/Trivago/TrivagoProject/lib/IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+				
+				DesiredCapabilities cap = new DesiredCapabilities();
+				cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+				cap.setCapability(InternetExplorerDriver.REQUIRE_WINDOW_FOCUS, true);
+				cap.setCapability(InternetExplorerDriver.ENABLE_PERSISTENT_HOVERING, false);
+				cap.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+				cap.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, "http://www.google.com");
+				
+				driver = new InternetExplorerDriver(cap);
+				
+			} else if(browserName.trim().equals("FIREFOX")) {
+				
+				driver = new FirefoxDriver();
+				
+			} else if(browserName.trim().equals("CHROME")) {
+				
+				File file = new File("/Trivago/TrivagoProject/lib/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+				
+				driver = new ChromeDriver();
+			}
+			driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+			driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
+			//driver.get(sURL);
+			createLog().info("Launched "+ browserName +" browser and navigated to "+ sURL);
+			
+		}catch(Exception ex) {
+			
+			createLog().error("General IOException has been occured: "+ ex.getMessage());
+		} 
+	}
+	
+	/**
+	 * This method is used to close shut down the web driver instance or destroy 
+	 * the web driver instance(Close all the windows).
+	 */
+	@AfterMethod
+	public void closeDriver(){
+	
+		driver.quit();
+		log.info("Successfully done cleanup driver");
+	}
+	
+	/**
+	 * Capture Screenshot
+	 * @param driverObj
+	 */
+     public void CaptureDeviceScreenshot(WebDriver driverObj)
+     {
+	     if (driverObj != null) {
+	    	 File classpathRoot = new File(System.getProperty("user.dir"));
+	 		 new File(classpathRoot, "\\Screenshots").mkdir();
+	         String filename = classpathRoot +"\\Screenshots\\"+ testName +"_"+ getCurrentDate() +".png";
+	         
+	         try {
+		         File scrFile = ((TakesScreenshot)driverObj).getScreenshotAs(OutputType.FILE);
+		         FileUtils.copyFile(scrFile, new File(filename), true);
+	         } catch(Exception ex) {
+	        	 log.error(ex.getMessage());
+	         }
+	     }
+     }
+     
+     /**
+      * Get Current Date and Time (MM-dd-yyyy HH:mm:ss)
+      * @return Current Date and Time in the following format MM-dd-yyyy HH:mm:ss, dd_MM_yyyy_hh_mm_ss, YYYYMMDD'T'HHMMSS
+      */
+     private String getCurrentDate() {
+    	 
+    	 DateFormat dateFormat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+    	 java.util.Date date = new java.util.Date();
+    	 return dateFormat.format(date);
+    	 
+     }
+	
+	/**
+	 * Create Log4j instance for creating test execution logs
+	 * @return
+	 */
+	public static Logger createLog() {
+		
+		PropertyConfigurator.configure("src/main/resources/log4j.properties");
+		if(testName != null) { log = Logger.getLogger(testName); } else { log = Logging.createLogger(); }
+		logCls.loggingFileAppender();
+		return log;
+	}
+}

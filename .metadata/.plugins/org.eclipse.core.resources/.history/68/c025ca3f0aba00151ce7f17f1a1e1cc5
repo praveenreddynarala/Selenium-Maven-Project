@@ -1,0 +1,16 @@
+INFO    2016-01-13 19:52:16,009 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 19:52:22,867 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 19:52:25,196 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 19:52:27,489 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 19:52:30,780 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 19:52:32,911 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 19:52:39,239 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 19:52:39,241 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (7073504365f59c14177b88ea71e3341e)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 19:52:45,588 [main] TC_ViewDeal  - Successfully waited for element# title on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 19:52:45,589 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (7073504365f59c14177b88ea71e3341e)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 19:52:46,106 [main] TC_ViewDeal  - Selected Hamburg City - Hamburg, Germany (518 Hotels) from suggetion list
+INFO    2016-01-13 19:52:51,697 [main] TC_ViewDeal  - Successfully performed WaitForElement on Check-in button for 60 seconds
+INFO    2016-01-13 19:52:55,272 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 19:52:55,975 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //li[@id='js_item_52934']//h3 and returned element
+INFO    2016-01-13 19:52:56,086 [main] TC_ViewDeal  - Successfully waited for element# View All Deals on Location# //li[@id='js_item_52934']//ul[2]/li[2] and returned element
+INFO    2016-01-13 19:53:00,156 [main] TC_ViewDeal  - Successfully done cleanup driver

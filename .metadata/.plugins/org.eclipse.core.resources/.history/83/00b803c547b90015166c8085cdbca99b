@@ -1,0 +1,6 @@
+INFO    2016-01-12 17:51:20,104 [main] TC_ViewDeal  - Launched CHROME browser and navigated to http://www.trivago.com
+INFO    2016-01-12 17:51:21,479 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 17:51:23,519 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 17:51:26,280 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 17:51:52,229 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 17:52:11,526 [main] TC_ViewDeal  - Successfully waited for elements

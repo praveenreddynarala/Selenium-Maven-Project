@@ -1,0 +1,2 @@
+INFO    2016-01-13 10:52:33,709 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 10:53:17,657 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com

@@ -1,0 +1,8 @@
+INFO    2016-01-12 18:40:23,305 [main] TC_ViewDeal  - Launched CHROME browser and navigated to http://www.trivago.com
+INFO    2016-01-12 18:40:30,812 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 18:40:30,958 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 18:40:33,100 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 18:40:34,989 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 18:40:37,996 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 18:40:40,040 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 18:40:47,768 [main] TC_ViewDeal  - Successfully waited for elements

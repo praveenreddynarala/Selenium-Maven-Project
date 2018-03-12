@@ -1,0 +1,7 @@
+# Properties defining the configuration settings.
+
+#Browser Type IE / FIREFOX / CHROME
+browserName=IE
+
+#Application (Trivago) URL
+baseURL=http://www.trivago.com

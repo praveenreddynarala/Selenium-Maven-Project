@@ -1,0 +1,9 @@
+INFO    2016-01-12 23:51:11,560 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-12 23:51:19,746 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 23:51:19,940 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 23:51:21,988 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 23:51:23,065 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 23:51:23,348 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 23:51:23,549 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+ERROR   2016-01-12 23:51:23,914 [main] TC_ViewDeal  - Exception : An element# deal-form-suggetion List could not be located with the given searched parameter location# //div[@id='js-dealform-suggest']/ul/li on the page.
+INFO    2016-01-12 23:51:23,915 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (22420a7033c7523291fbbcf412c4c6f3)] -> id: js-dealform-suggest]

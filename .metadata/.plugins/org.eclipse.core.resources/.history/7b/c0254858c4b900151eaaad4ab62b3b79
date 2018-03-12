@@ -1,0 +1,16 @@
+INFO    2016-01-13 11:17:09,086 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 11:17:15,947 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 11:17:18,011 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 11:17:20,243 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 11:17:23,439 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 11:17:25,332 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 11:17:31,500 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 11:17:31,501 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (07fedefe74dcb5e7eaf7b58d0266e584)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 11:17:37,964 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 11:17:42,455 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 11:17:56,134 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 11:17:56,135 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (07fedefe74dcb5e7eaf7b58d0266e584)] -> xpath: //div[@id='content']//li//h3]
+INFO    2016-01-13 11:18:01,779 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 11:18:04,615 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 11:20:23,619 [main] TC_ViewDeal  - Successfully switched to Accor Hotels : GLOBAL HOTEL GUEST PRIVACY POLICY
+INFO    2016-01-13 11:20:40,030 [main] TC_ViewDeal  - Successfully switched to Current/Default Accor Hotels : GLOBAL HOTEL GUEST PRIVACY POLICY page

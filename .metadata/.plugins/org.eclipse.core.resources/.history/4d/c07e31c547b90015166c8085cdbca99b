@@ -1,0 +1,7 @@
+ERROR   2016-01-12 17:49:40,992 [main] TC_ViewDeal  - General IOException has been occured: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+ERROR   2016-01-12 17:49:41,053 [main] TC_ViewDeal  - Failed to perform WaitForElementaction on Search Textbox due to some error
+ERROR   2016-01-12 17:49:41,054 [main] TC_ViewDeal  - 
+ERROR   2016-01-12 17:49:41,078 [main] TC_ViewDeal  - Failed to perform Clickaction on Search Textbox due to some error
+ERROR   2016-01-12 17:49:41,079 [main] TC_ViewDeal  - 
+ERROR   2016-01-12 17:49:41,080 [main] TC_ViewDeal  - Failed to perform TypeTextaction on Search Textbox due to some error
+ERROR   2016-01-12 17:49:41,081 [main] TC_ViewDeal  - 

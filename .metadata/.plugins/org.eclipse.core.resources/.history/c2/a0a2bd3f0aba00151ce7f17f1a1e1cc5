@@ -1,0 +1,9 @@
+INFO    2016-01-13 18:20:46,749 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 18:20:53,523 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 18:20:55,813 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 18:20:57,616 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 18:21:00,835 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 18:21:03,042 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 18:21:08,832 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 18:21:08,834 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (c77358f0367cd6953abe56c797c47efe)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 18:21:15,612 [main] TC_ViewDeal  - Successfully done cleanup driver

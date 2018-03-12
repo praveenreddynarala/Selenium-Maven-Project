@@ -1,0 +1,21 @@
+INFO    2016-01-13 10:51:38,168 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 10:51:58,278 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+ERROR   2016-01-13 10:52:00,256 [main] TC_ViewDeal  - no such session
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir6316_30878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7ef9a21ad0900815717ec0a8d3ccee43
+ERROR   2016-01-13 10:52:00,257 [main] TC_ViewDeal  - Failed to perform NavigateToUrlaction on Open Trivago application due to some error
+ERROR   2016-01-13 10:52:00,260 [main] TC_ViewDeal  - no such session
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 467 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir6316_30878}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7ef9a21ad0900815717ec0a8d3ccee43
+ERROR   2016-01-13 10:52:00,328 [main] TC_ViewDeal  - Exception : An element# Search Textbox could not be located with the given searched parameter location# js_querystring on the page.
+ERROR   2016-01-13 10:52:02,337 [main] TC_ViewDeal  - Exception : An element# Search Textbox could not be located with the given searched parameter location# js_querystring on the page.

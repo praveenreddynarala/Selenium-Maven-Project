@@ -1,0 +1,52 @@
+package ReportLogging;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Set;
+
+import BaseClasses.BaseTest;
+
+public class RenderHTMLReport {
+
+	/**
+     * @param teststeps 
+	 * @param args
+     */
+    public String renderHTMLReport(Set<String> teststeps) {
+
+        ListToHtmlTransformer renderer = new ListToHtmlTransformer();
+        String renderedHtml = renderer.render( teststeps );
+        
+        System.out.println( "The following HTML was rendered: " + new java.util.Date().toString() );
+        System.out.println( renderedHtml );
+        System.out.println( "*** End of HTML ***" );
+        return renderedHtml;
+    }
+    
+    public void generateHTML(Set<String> teststeps) {
+    	
+    	BufferedWriter writer = null;
+    	FileInputStream fInputStreem = null;
+    	
+    	try {
+    		File file = new File("");
+    		writer = new BufferedWriter( new FileWriter(file));
+    		fInputStreem = new FileInputStream(file);
+    		int b = fInputStreem.read();
+    		if(b != -1) {
+	    		writer.flush();
+	    		writer.write(renderHTMLReport(teststeps));
+	    		
+    		} else {
+    			BaseTest.log.info("File "+ file +" is empty");
+    			writer.write(renderHTMLReport(teststeps));
+    		}
+    	} catch(IOException ioex) {
+    		BaseTest.log.error("Problem in writing the text to text file");
+    		BaseTest.log.error(ioex.getMessage());
+    	}
+    }
+}

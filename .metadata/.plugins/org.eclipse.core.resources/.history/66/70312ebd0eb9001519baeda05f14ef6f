@@ -1,0 +1,30 @@
+package testcases;
+
+import baseclass.BaseTest;
+import baseclass.CommonActions;
+
+/**
+ * This class contains all typical trivago test cases
+ * @author praveenrn
+ *
+ */
+public class TC_ViewDeal extends BaseTest {
+
+	//Global variables
+	private BaseTest basetestObj = null;
+	private CommonActions commonObj = null;
+	
+	/**
+	 * Constructor for objects initialization
+	 */
+	public TC_ViewDeal(){
+	
+		basetestObj = new BaseTest();
+		commonObj = new CommonActions();
+	}
+	
+	public void launchBrowser(){
+	
+		
+	}
+}

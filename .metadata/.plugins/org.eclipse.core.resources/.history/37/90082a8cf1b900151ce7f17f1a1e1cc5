@@ -1,0 +1,62 @@
+INFO    2016-01-13 12:47:57,263 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-13 12:48:03,146 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-13 12:48:05,723 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-13 12:48:08,382 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-13 12:48:11,584 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-13 12:48:14,135 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-13 12:48:16,167 [main] TC_ViewDeal  - Successfully waited for element# deal-form-suggetion List on Location# //div[@id='js-dealform-suggest']/ul/li and returned element
+INFO    2016-01-13 12:48:16,168 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (29fdabd6b21739e2310e0ac55d62c84d)] -> xpath: //div[@id='js-dealform-suggest']/ul/li]
+INFO    2016-01-13 12:48:19,856 [main] TC_ViewDeal  - Successfully waited for element# Check-in button on Location# //form[@id='js_dealform_querycenter']/div[2]/div[1]/button and returned element
+INFO    2016-01-13 12:48:20,231 [main] TC_ViewDeal  - Successfully clicked on Check-in Calendar
+INFO    2016-01-13 12:48:22,299 [main] TC_ViewDeal  - Successfully waited for element# Hotel Result List on Location# //div[@id='content']//li//h3 and returned element
+INFO    2016-01-13 12:48:22,300 [main] TC_ViewDeal  - Successfully waited for WebElement [[ChromeDriver: chrome on WIN8 (29fdabd6b21739e2310e0ac55d62c84d)] -> xpath: //div[@id='content']//li//h3]
+ERROR   2016-01-13 12:49:22,665 [main] TC_ViewDeal  - Exception : An element# Third Price could not be located with the given searched parameter location# //div[@id='content']//li[2]//section[@class='sl-box-content cf']//div[contains(@class, 'deal_wrp js_deal_wrp')][1]/div on the page.
+INFO    2016-01-13 12:49:22,666 [main] TC_ViewDeal  - Successfully performed WaitForElement on Third Price for 60 seconds
+INFO    2016-01-13 12:49:37,106 [main] TC_ViewDeal  - Successfully clicked on Third Price
+INFO    2016-01-13 12:49:39,678 [main] TC_ViewDeal  - Successfully switched to trivago
+INFO    2016-01-13 12:49:50,744 [main] TC_ViewDeal  - Successfully switched to Current/Default Accorhotels.com
+INFO    2016-01-13 12:49:53,372 [main] TC_ViewDeal  - Successfully switched to Accorhotels.com
+INFO    2016-01-13 12:49:53,728 [main] TC_ViewDeal  - Assterted page title Accorhotels.com is contains on the page
+INFO    2016-01-13 12:49:54,014 [main] TC_ViewDeal  - Assrted text Mercure Hotel Hamburg Mitte is present on page
+ERROR   2016-01-13 12:49:54,118 [main] TC_ViewDeal  - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir9828_8238}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29fdabd6b21739e2310e0ac55d62c84d
+ERROR   2016-01-13 12:49:54,119 [main] TC_ViewDeal  - Failed to perform CloseWindowaction on Close Partners Window due to some error
+ERROR   2016-01-13 12:49:54,121 [main] TC_ViewDeal  - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir9828_8238}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29fdabd6b21739e2310e0ac55d62c84d
+ERROR   2016-01-13 12:49:54,138 [main] TC_ViewDeal  - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir9828_8238}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29fdabd6b21739e2310e0ac55d62c84d
+ERROR   2016-01-13 12:49:54,139 [main] TC_ViewDeal  - Failed to perform SwitchToDefaultWindowaction on Switch to Trivago Hotel Result Screen due to some error
+ERROR   2016-01-13 12:49:54,142 [main] TC_ViewDeal  - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.100', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir9828_8238}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29fdabd6b21739e2310e0ac55d62c84d

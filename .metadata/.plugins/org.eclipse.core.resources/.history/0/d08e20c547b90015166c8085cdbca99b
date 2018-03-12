@@ -1,0 +1,21 @@
+INFO    2016-01-12 19:20:40,014 [main] TC_ViewDeal  - Launched CHROME browser
+INFO    2016-01-12 19:20:50,210 [main] TC_ViewDeal  - Successfully navigated to http://www.trivago.com
+INFO    2016-01-12 19:20:50,360 [main] TC_ViewDeal  - Not a valid Action enum value.
+INFO    2016-01-12 19:20:52,485 [main] TC_ViewDeal  - Successfully performed WaitForElement on Search Textbox for 60 seconds
+INFO    2016-01-12 19:20:54,819 [main] TC_ViewDeal  - Successfully clicked on Search Textbox
+INFO    2016-01-12 19:20:57,526 [main] TC_ViewDeal  - Successfully entered text in Search Textbox
+INFO    2016-01-12 19:21:00,085 [main] TC_ViewDeal  - Successfully performed WaitForElement on deal-form-suggetion for 30 seconds
+INFO    2016-01-12 19:21:08,460 [main] TC_ViewDeal  - Successfully waited for elements
+INFO    2016-01-12 19:21:10,870 [main] TC_ViewDeal  - Selected Hamburg City - Hamburg, Germany (518 Hotels) from suggetion list
+ERROR   2016-01-12 19:22:14,153 [main] TC_ViewDeal  - Failed to perform Clickaction on Check-in Calendar due to some error
+ERROR   2016-01-12 19:22:14,153 [main] TC_ViewDeal  - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Check-in']/../span[contains(@class, 'df_overlay_close_wrap')]"}
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'MTALT292', ip: '192.168.0.101', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\PRAVEE~1.STC\AppData\Local\Temp\scoped_dir6892_30660}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 19a633c35c6d30bfbc0ac8ff9284c6e7
+*** Element info: {Using=xpath, value=//span[text()='Check-in']/../span[contains(@class, 'df_overlay_close_wrap')]}

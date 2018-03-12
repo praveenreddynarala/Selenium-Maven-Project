@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Trivago_Suite" verbose="1" >
+  <test name="ViewDeal" >
+    <classes>
+       <class name="testcases.Trivago_TestCases">
+        <methods>
+        <include name="TC_ViewDeal" />
+        <exclude name="testScreen_SwipeUp" />
+        <exclude name="testScreen_SwipeDown_Using_Element" />
+        </methods>
+       </class>
+    </classes>
+  </test>
+  
+  <test name="WebApp">
+   <classes>
+    <class name="appiumproject.AutomateWebApp">
+      <methods>
+       <include name="switchContexts" />
+      </methods>
+    </class>
+   </classes>
+  </test>
+  
+  <test name="Flipkart">
+   <classes>
+    <class name="appiumproject.FlipkartNativeAppTest">
+      <methods>
+       <exclude name="login_Flipkart" />
+       <exclude name="fl_CartProduct" />
+       <exclude name="fl_DealsOfTheDay" />
+      </methods>
+    </class>
+   </classes>
+  </test> <!-- Test -->
+</suite>

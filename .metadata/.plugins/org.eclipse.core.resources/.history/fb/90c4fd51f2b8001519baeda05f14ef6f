@@ -1,0 +1,28 @@
+# Properties defining the configuration settings.
+
+#Application we are targeting for execution. 
+#Application types are 'NativeApp', 'WebApp', 'HybridApp'.
+
+appType=NativeApp
+
+#Device which we are targeting for testing. 
+#User has to set the device type before staring execution.
+#Devices are 'Android', 'iOS', 'WINDOWS', 'BLACKBERRY'.
+
+deviceType=Android 
+
+# Properties defining the Capabilities of Mobile Devices for Launching to test
+
+browserName=chrome
+deviceName=emulator-5554
+#deviceName=Google Nexus
+#automationName=Appium
+platformVersion=5.0.0
+platformName=Android
+#app=E:\\Aditi\\Workspace-dev\\appiumproject\\src\\main\\resources\\APK Files\\com.linkedin.android-3.4.9-APK4Fun.com.apk
+#appPackage=com.linkedin.android
+#appActivity=com.linkedin.android.authenticator.LaunchActivity
+#app=E:\\Aditi\\Workspace-dev\\appiumproject\\src\\main\\resources\\APK Files\\com.flipkart.android-3.1-550900-minAPI14.apk
+#appPackage=com.flipkart.android
+#appActivity=com.flipkart.android.SplashActivity
+#takesScreenshot=true

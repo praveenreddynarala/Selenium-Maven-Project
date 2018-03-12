@@ -1,0 +1,82 @@
+package appiumproject.Helper;
+
+import io.appium.java_client.remote.MobileCapabilityType;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import BaseClasses.BaseTest;
+
+/*
+ * Class contains all kind of device capabilities for launching application
+ * Based on Device version this class will put capabilities
+ */
+public class Capabilities {
+	
+	//static ReadPropertiesFile properties = null;
+	static DesiredCapabilities capabilities = null;
+	
+	/**
+	 * This method is used to get Android Capabilities
+	 * Return List of Capabilities
+	 * @throws IOException
+	 */
+	public DesiredCapabilities getAndroidCap() throws IOException {
+		
+		capabilities = new DesiredCapabilities();
+		
+		if(BaseTest.properties.getPropertyValue("platformVersion").equals("5.0.0") || BaseTest.properties.getPropertyValue("platformVersion").equals("5.1.0")) {
+			if(BaseTest.properties.getPropertyValue("browserName") != null) {
+				capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BaseTest.properties.getPropertyValue("browserName")); }
+			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, BaseTest.properties.getPropertyValue("deviceName"));
+			capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, BaseTest.properties.getPropertyValue("automationName"));
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, BaseTest.properties.getPropertyValue("platformVersion"));
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, BaseTest.properties.getPropertyValue("platformName"));
+			capabilities.setCapability(MobileCapabilityType.LAUNCH_TIMEOUT, 120);
+			capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 120);
+			if(BaseTest.properties.getPropertyValue("app") != null) {
+				capabilities.setCapability(MobileCapabilityType.APP, BaseTest.properties.getPropertyValue("app"));
+				capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, BaseTest.properties.getPropertyValue("appPackage"));
+				capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, BaseTest.properties.getPropertyValue("appActivity"));
+				capabilities.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, true);
+			}
+		}
+		else if(BaseTest.properties.getPropertyValue("platformVersion").equals("4.4.4")) {
+			if(BaseTest.properties.getPropertyValue("browserName") != null) {
+				capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BaseTest.properties.getPropertyValue("browserName")); }
+			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, BaseTest.properties.getPropertyValue("deviceName"));
+			capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, BaseTest.properties.getPropertyValue("automationName"));
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, BaseTest.properties.getPropertyValue("platformVersion"));
+			capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, BaseTest.properties.getPropertyValue("platformName"));
+			capabilities.setCapability(MobileCapabilityType.APP, BaseTest.properties.getPropertyValue("app"));
+			capabilities.setCapability(MobileCapabilityType.LAUNCH_TIMEOUT, 120);
+			capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 120);
+			if(BaseTest.properties.getPropertyValue("appPackage") != null) {
+				capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, BaseTest.properties.getPropertyValue("appPackage"));
+				capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, BaseTest.properties.getPropertyValue("appActivity"));
+				capabilities.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, true);
+			}
+		}
+		return capabilities;
+	}
+	
+	/**
+	 * This method is used to get iOS Capabilities
+	 * Return List of Capabilities
+	 * @param apkFile
+	 * @throws IOException
+	 */
+	public DesiredCapabilities getiOSCap(File apkFile) throws IOException {
+		
+		capabilities.setCapability("browser", BaseTest.properties.getPropertyValue("browserName"));
+		capabilities.setCapability("deviceName", BaseTest.properties.getPropertyValue("deviceName"));
+		capabilities.setCapability("automationName", BaseTest.properties.getPropertyValue("automationName"));
+		capabilities.setCapability("platformVersion", BaseTest.properties.getPropertyValue("platformVersion"));
+		capabilities.setCapability("platformName", BaseTest.properties.getPropertyValue("platformName"));
+		capabilities.setCapability("app", apkFile.getAbsolutePath());
+		capabilities.setCapability("takescreenshot", true);
+		return capabilities;
+	}
+}
